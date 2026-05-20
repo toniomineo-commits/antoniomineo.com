@@ -10,7 +10,7 @@ const SECTIONS = [
 
 const SIZES = {
   home:     { w: 540, h: 620 },
-  about:    { w: 540, h: 640 },
+  about:    { w: 620, h: 640 },
   work:     { w: 680, h: 600 },
   projects: { w: 620, h: 600 },
   contact:  { w: 540, h: 600 },
@@ -74,8 +74,8 @@ function WorkContent() {
       detail: "Leading a global team of brand consultants acting as guardians of Škoda's marketing across 50+ markets. Restructured the EU5 coverage model and launched a 7-area improvement programme spanning marketing operations." },
     { n: "02", name: "+17% in key brand metrics · 2× brand value", meta: "Škoda rebrand · 2022 → 25",
       detail: "Spearheaded Škoda's full rebrand — new positioning and \"Let's Explore\" platform — across HQ, VW Group and 50+ markets. New strategy drove a 17% lift in key brand metrics and contributed to a 2× increase in overall brand value." },
-    { n: "03", name: "Sharpened Cupra's identity & long-term moves", meta: "Cupra · 2025",
-      detail: "Consulted Cupra on their updated brand identity alongside their internal team and lead agency. Led a project with Interbrand to define the long-term strategic moves to strengthen the Cupra brand." },
+    { n: "03", name: "Supported Cupra's identity refresh", meta: "Cupra · 2025",
+      detail: "Supported Cupra on their updated brand identity alongside their internal team and lead agency. Contributed to a project with Interbrand exploring long-term strategic moves to strengthen the brand." },
     { n: "04", name: "Stood up Škoda's Brand Strategy function", meta: "Škoda · 2022",
       detail: "Built the internal case for a dedicated Brand Strategy function — and became its first head. Hired and led the team that didn't exist before, set its mandate, and embedded it across the marketing org." },
     { n: "05", name: "Defined the purpose behind the rebrand", meta: "Škoda · 2020 → 21",

@@ -15,7 +15,7 @@ export default function App() {
   const targetParaRef = useRef({ x: 0, y: 0 })
 
   const isMobile = vp.w < 760
-  const CARD_SIZES = { home: 540, about: 540, work: 680, projects: 620, contact: 540 }
+  const CARD_SIZES = { home: 540, about: 620, work: 680, projects: 620, contact: 540 }
   const ORANGE_W = CARD_SIZES[active] || 540
   const ORANGE_LEFT = Math.max(48, Math.min(vp.w * 0.08, 140))
   const ORANGE_TOP = Math.max(48, (vp.h - 580) / 2)
