@@ -29,6 +29,25 @@
     0 1px 1px rgba(60, 35, 20, 0.04),
     0 8px 24px rgba(60, 35, 20, 0.08),
     0 32px 60px -20px rgba(60, 35, 20, 0.18);
+  --overlay-color: #111111;
+  --cursor-ring-color: rgba(40, 30, 20, 0.4);
+  --cursor-ring-blend: multiply;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e0d0b;
+    --ink: oklch(0.88 0.008 60);
+    --ink-soft: oklch(0.65 0.008 60);
+    --bg-type: oklch(0.72 0.010 65);
+    --shadow-soft:
+      0 1px 1px rgba(0, 0, 0, 0.2),
+      0 8px 24px rgba(0, 0, 0, 0.4),
+      0 32px 60px -20px rgba(0, 0, 0, 0.6);
+    --overlay-color: rgba(255, 255, 255, 0.92);
+    --cursor-ring-color: rgba(255, 255, 255, 0.35);
+    --cursor-ring-blend: screen;
+  }
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -80,7 +99,7 @@ html, body {
 }
 
 .bg-strips.overlay {
-  color: #111;
+  color: var(--overlay-color);
   font-variation-settings: "wght" 850, "ELSH" 1, "ELXP" 0.5;
   -webkit-mask-image: radial-gradient(circle 240px at var(--mx, -9999px) var(--my, -9999px), #000 0%, rgba(0,0,0,0.7) 35%, transparent 90%);
   mask-image: radial-gradient(circle 240px at var(--mx, -9999px) var(--my, -9999px), #000 0%, rgba(0,0,0,0.7) 35%, transparent 90%);
@@ -524,11 +543,11 @@ html, body {
   position: fixed;
   top: 0; left: 0;
   width: 28px; height: 28px;
-  border: 1px solid rgba(40,30,20,0.4);
+  border: 1px solid var(--cursor-ring-color);
   border-radius: 50%;
   pointer-events: none;
   z-index: 999;
-  mix-blend-mode: multiply;
+  mix-blend-mode: var(--cursor-ring-blend);
   transform: translate3d(var(--mx, -100px), var(--my, -100px), 0) translate3d(-50%, -50%, 0);
   will-change: transform;
 }

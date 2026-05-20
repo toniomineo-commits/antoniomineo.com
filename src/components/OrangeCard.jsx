@@ -141,7 +141,7 @@ function ContactContent() {
     if (!name.trim() || !from.trim() || !message.trim()) return
     setStatus("sending")
     try {
-      const res = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      const res = await fetch("https://formspree.io/f/xpqnpyrv", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({ name, email: from, message }),
