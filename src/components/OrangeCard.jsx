@@ -9,11 +9,11 @@ const SECTIONS = [
 ]
 
 const SIZES = {
-  home:     { w: 540, h: 520 },
-  about:    { w: 540, h: 580 },
-  work:     { w: 540, h: 640 },
-  projects: { w: 540, h: 580 },
-  contact:  { w: 540, h: 560 },
+  home:     { w: 540, h: 620 },
+  about:    { w: 540, h: 640 },
+  work:     { w: 540, h: 680 },
+  projects: { w: 540, h: 640 },
+  contact:  { w: 540, h: 600 },
 }
 
 function HomeContent() {
@@ -211,7 +211,7 @@ export default function OrangeCard({ active, setActive, x, y, mobile }) {
   const winW = typeof window !== "undefined" ? window.innerWidth : 1200
   const winH = typeof window !== "undefined" ? window.innerHeight : 800
   const maxW = Math.min(size.w, winW - 64)
-  const maxH = Math.min(size.h, winH - 96)
+  const maxH = Math.min(size.h, winH - 48)
 
   useEffect(() => {
     const onClick = (e) => {
