@@ -11,8 +11,8 @@ const SECTIONS = [
 const SIZES = {
   home:     { w: 540, h: 620 },
   about:    { w: 540, h: 640 },
-  work:     { w: 540, h: 680 },
-  projects: { w: 540, h: 640 },
+  work:     { w: 680, h: 600 },
+  projects: { w: 620, h: 600 },
   contact:  { w: 540, h: 600 },
 }
 
