@@ -14,7 +14,7 @@ export default function PortraitOrb({ size = 420, x, y, mobile = false }) {
       data-orb=""
     >
       <div className="orb-ring" aria-hidden="true">
-        <svg viewBox={`0 0 ${size} ${size}`} width={size} height={size}>
+        <svg viewBox={`0 0 ${size} ${size}`} width={size} height={size} overflow="visible">
           <defs>
             <path
               id="orbit-path"
