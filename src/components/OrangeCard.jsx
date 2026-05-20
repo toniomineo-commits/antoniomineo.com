@@ -70,7 +70,7 @@ function ExpandableRow({ item, isOpen, onToggle }) {
 function WorkContent() {
   const [openIdx, setOpenIdx] = useState(null)
   const items = [
-    { n: "01", name: "Built brand consultancy for 50+ markets", meta: "Škoda · 2026 → now",
+    { n: "01", name: "Leading brand steering for 50+ markets", meta: "Škoda · 2026 → now",
       detail: "Leading a global team of brand consultants acting as guardians of Škoda's marketing across 50+ markets. Restructured the EU5 coverage model and launched a 7-area improvement programme spanning marketing operations." },
     { n: "02", name: "+17% in key brand metrics · 2× brand value", meta: "Škoda rebrand · 2022 → 25",
       detail: "Spearheaded Škoda's full rebrand — new positioning and \"Let's Explore\" platform — across HQ, VW Group and 50+ markets. New strategy drove a 17% lift in key brand metrics and contributed to a 2× increase in overall brand value." },

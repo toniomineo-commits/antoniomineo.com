@@ -615,9 +615,10 @@ body.is-mobile .orange-card.mobile {
   flex: 0 0 auto;
 }
 body.is-mobile .orange-card.mobile .oc-body {
-  overflow: visible;
+  overflow-y: auto;
   flex: 0 0 auto;
   padding: 8px 22px 36px;
+  max-height: 70vh;
 }
 body.is-mobile .orange-card.mobile .oc-nav {
   position: sticky;
