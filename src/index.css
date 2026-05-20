@@ -482,7 +482,6 @@ html, body {
   pointer-events: auto;
   z-index: 9;
   transform: translate3d(calc(var(--para-x, 0px) * 1.4), calc(var(--para-y, 0px) * 1.4), 0);
-  contain: layout paint;
 }
 .portrait-orb .orb-ring {
   position: absolute;
