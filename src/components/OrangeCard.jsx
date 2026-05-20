@@ -45,7 +45,7 @@ function AboutContent() {
         <div><span className="k">Based</span><span className="v">Prague, CZ</span></div>
         <div><span className="k">Now</span><span className="v">Škoda Auto — Head of Global Brand Steering</span></div>
         <div><span className="k">Focus</span><span className="v">Brand strategy · Creative strategy · Positioning · Governance · Team systems</span></div>
-        <div><span className="k">Languages</span><span className="v">Fluent: IT · EN · ES{"\n"}Intermediate: FR{"\n"}More than a beginner: CZ</span></div>
+        <div><span className="k">Languages</span><span className="v">Fluent: IT · EN · ES<br />Intermediate: FR<br />More than a beginner: CZ</span></div>
       </div>
     </>
   )
